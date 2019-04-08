@@ -1,0 +1,1542 @@
+./matrix/2cubes_sphere.mtx 2048
+./matrix/cage12.mtx 1024
+--------------------------------------------------------------------
+test for : ./matrix/2cubes_sphere.mtx 2048
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 19075090 us.
+Multi Thread Computation Start
+total load : 1647264 with threshold : 1647264
+start row : 0, end row : 101492 with load 1647264
+Multi Thread Computation End: 16994805 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 19076762 us.
+Multi Thread Computation Start
+total load : 1647264 with threshold : 823632
+start row : 0, end row : 50459 with load 823644
+start row : 50459, end row : 101492 with load 823620
+Multi Thread Computation End: 8661703 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 19078650 us.
+Multi Thread Computation Start
+total load : 1647264 with threshold : 549088
+start row : 0, end row : 33626 with load 549089
+start row : 33626, end row : 67388 with load 549092
+start row : 67388, end row : 101492 with load 549083
+Multi Thread Computation End: 5889014 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 19076359 us.
+Multi Thread Computation Start
+total load : 1647264 with threshold : 411816
+start row : 0, end row : 25170 with load 411824
+start row : 25170, end row : 50459 with load 411820
+start row : 50459, end row : 76157 with load 411818
+start row : 76157, end row : 101492 with load 411802
+Multi Thread Computation End: 5149570 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 19081855 us.
+Multi Thread Computation Start
+total load : 1647264 with threshold : 329452
+start row : 0, end row : 20070 with load 329455
+start row : 20070, end row : 40399 with load 329460
+start row : 40399, end row : 60609 with load 329457
+start row : 60609, end row : 81249 with load 329452
+start row : 81249, end row : 101492 with load 329440
+Multi Thread Computation End: 4154123 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 19072877 us.
+Multi Thread Computation Start
+total load : 1647264 with threshold : 274544
+start row : 0, end row : 16738 with load 274550
+start row : 16738, end row : 33627 with load 274555
+start row : 33627, end row : 50460 with load 274558
+start row : 50460, end row : 67390 with load 274544
+start row : 67390, end row : 84599 with load 274551
+start row : 84599, end row : 101492 with load 274506
+Multi Thread Computation End: 3500864 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/cage12.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 11262371 us.
+Multi Thread Computation Start
+total load : 2032536 with threshold : 2032536
+start row : 0, end row : 130228 with load 2032536
+Multi Thread Computation End: 9794326 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 11261821 us.
+Multi Thread Computation Start
+total load : 2032536 with threshold : 1016268
+start row : 0, end row : 74120 with load 1016272
+start row : 74120, end row : 130228 with load 1016264
+Multi Thread Computation End: 5086729 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 11263419 us.
+Multi Thread Computation Start
+total load : 2032536 with threshold : 677512
+start row : 0, end row : 52541 with load 677515
+start row : 52541, end row : 94233 with load 677518
+start row : 94233, end row : 130228 with load 677503
+Multi Thread Computation End: 3520921 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 11256173 us.
+Multi Thread Computation Start
+total load : 2032536 with threshold : 508134
+start row : 0, end row : 40968 with load 508138
+start row : 40968, end row : 74120 with load 508134
+start row : 74120, end row : 104284 with load 508136
+start row : 104284, end row : 130228 with load 508128
+Multi Thread Computation End: 3073094 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 11257600 us.
+Multi Thread Computation Start
+total load : 2032536 with threshold : 406507
+start row : 0, end row : 34230 with load 406524
+start row : 34230, end row : 61755 with load 406507
+start row : 61755, end row : 85723 with load 406518
+start row : 85723, end row : 109579 with load 406516
+start row : 109579, end row : 130228 with load 406471
+Multi Thread Computation End: 2497019 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 11261149 us.
+Multi Thread Computation Start
+total load : 2032536 with threshold : 338756
+start row : 0, end row : 29548 with load 338762
+start row : 29548, end row : 52542 with load 338760
+start row : 52542, end row : 74121 with load 338771
+start row : 74121, end row : 94234 with load 338757
+start row : 94234, end row : 113137 with load 338776
+start row : 113137, end row : 130228 with load 338710
+Multi Thread Computation End: 2091889 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/consph.mtx 2048
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 95860781 us.
+Multi Thread Computation Start
+total load : 6010480 with threshold : 6010480
+start row : 0, end row : 83334 with load 6010480
+Multi Thread Computation End: 96921842 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 95987699 us.
+Multi Thread Computation Start
+total load : 6010480 with threshold : 3005240
+start row : 0, end row : 41840 with load 3005240
+start row : 41840, end row : 83334 with load 3005240
+Multi Thread Computation End: 52120612 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 96006850 us.
+Multi Thread Computation Start
+total load : 6010480 with threshold : 2003493
+start row : 0, end row : 27725 with load 2003571
+start row : 27725, end row : 55414 with load 2003537
+start row : 55414, end row : 83334 with load 2003372
+Multi Thread Computation End: 36441278 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 95976350 us.
+Multi Thread Computation Start
+total load : 6010480 with threshold : 1502620
+start row : 0, end row : 20958 with load 1502659
+start row : 20958, end row : 41841 with load 1502662
+start row : 41841, end row : 62215 with load 1502626
+start row : 62215, end row : 83334 with load 1502533
+Multi Thread Computation End: 29675962 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 95895369 us.
+Multi Thread Computation Start
+total load : 6010480 with threshold : 1202096
+start row : 0, end row : 16893 with load 1202165
+start row : 16893, end row : 33456 with load 1202105
+start row : 33456, end row : 50015 with load 1202157
+start row : 50015, end row : 66250 with load 1202141
+start row : 66250, end row : 83334 with load 1201912
+Multi Thread Computation End: 24534960 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 95891161 us.
+Multi Thread Computation Start
+total load : 6010480 with threshold : 1001746
+start row : 0, end row : 13565 with load 1001763
+start row : 13565, end row : 27725 with load 1001808
+start row : 27725, end row : 41841 with load 1001750
+start row : 41841, end row : 55414 with load 1001787
+start row : 55414, end row : 68949 with load 1001760
+start row : 68949, end row : 83334 with load 1001612
+Multi Thread Computation End: 21401772 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/cop20k_A.mtx 2048
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 29779177 us.
+Multi Thread Computation Start
+total load : 2624331 with threshold : 2624331
+start row : 0, end row : 121192 with load 2624331
+Multi Thread Computation End: 25530259 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 29785583 us.
+Multi Thread Computation Start
+total load : 2624331 with threshold : 1312165
+start row : 0, end row : 59437 with load 1312184
+start row : 59437, end row : 121192 with load 1312147
+Multi Thread Computation End: 13192942 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 29786494 us.
+Multi Thread Computation Start
+total load : 2624331 with threshold : 874777
+start row : 0, end row : 19830 with load 874798
+start row : 19830, end row : 80802 with load 874785
+start row : 80802, end row : 121192 with load 874748
+Multi Thread Computation End: 9072375 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 29742828 us.
+Multi Thread Computation Start
+total load : 2624331 with threshold : 656082
+start row : 0, end row : 14990 with load 656097
+start row : 14990, end row : 59437 with load 656087
+start row : 59437, end row : 91621 with load 656086
+start row : 91621, end row : 121192 with load 656061
+Multi Thread Computation End: 7645492 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 29817203 us.
+Multi Thread Computation Start
+total load : 2624331 with threshold : 524866
+start row : 0, end row : 11882 with load 524874
+start row : 11882, end row : 47505 with load 524888
+start row : 47505, end row : 72170 with load 524869
+start row : 72170, end row : 97745 with load 524871
+start row : 97745, end row : 121192 with load 524829
+Multi Thread Computation End: 6378219 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 29786672 us.
+Multi Thread Computation Start
+total load : 2624331 with threshold : 437388
+start row : 0, end row : 9794 with load 437388
+start row : 9794, end row : 19830 with load 437410
+start row : 19830, end row : 59438 with load 437409
+start row : 59438, end row : 80803 with load 437399
+start row : 80803, end row : 101750 with load 437393
+start row : 101750, end row : 121192 with load 437332
+Multi Thread Computation End: 5300854 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/filter3D.mtx 2048
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 34407387 us.
+Multi Thread Computation Start
+total load : 2707179 with threshold : 2707179
+start row : 0, end row : 106437 with load 2707179
+Multi Thread Computation End: 30692230 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 34403984 us.
+Multi Thread Computation Start
+total load : 2707179 with threshold : 1353589
+start row : 0, end row : 53121 with load 1353593
+start row : 53121, end row : 106437 with load 1353586
+Multi Thread Computation End: 15651036 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 34400158 us.
+Multi Thread Computation Start
+total load : 2707179 with threshold : 902393
+start row : 0, end row : 34760 with load 902399
+start row : 34760, end row : 71464 with load 902408
+start row : 71464, end row : 106437 with load 902372
+Multi Thread Computation End: 10710032 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 34408942 us.
+Multi Thread Computation Start
+total load : 2707179 with threshold : 676794
+start row : 0, end row : 25635 with load 676800
+start row : 25635, end row : 53122 with load 676812
+start row : 53122, end row : 80601 with load 676808
+start row : 80601, end row : 106437 with load 676759
+Multi Thread Computation End: 9081544 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 34413547 us.
+Multi Thread Computation Start
+total load : 2707179 with threshold : 541435
+start row : 0, end row : 20334 with load 541439
+start row : 20334, end row : 42124 with load 541442
+start row : 42124, end row : 64087 with load 541452
+start row : 64087, end row : 85806 with load 541496
+start row : 85806, end row : 106437 with load 541350
+Multi Thread Computation End: 7358947 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 34405309 us.
+Multi Thread Computation Start
+total load : 2707179 with threshold : 451196
+start row : 0, end row : 16916 with load 451213
+start row : 16916, end row : 34761 with load 451209
+start row : 34761, end row : 53123 with load 451217
+start row : 53123, end row : 71466 with load 451210
+start row : 71466, end row : 89124 with load 451208
+start row : 89124, end row : 106437 with load 451122
+Multi Thread Computation End: 6146931 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/hood.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 42685972 us.
+Multi Thread Computation Start
+total load : 9895422 with threshold : 9895422
+start row : 0, end row : 220542 with load 9895422
+Multi Thread Computation End: 30472635 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 42686637 us.
+Multi Thread Computation Start
+total load : 9895422 with threshold : 4947711
+start row : 0, end row : 103976 with load 4947724
+start row : 103976, end row : 220542 with load 4947698
+Multi Thread Computation End: 15342748 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 42694435 us.
+Multi Thread Computation Start
+total load : 9895422 with threshold : 3298474
+start row : 0, end row : 68639 with load 3298487
+start row : 68639, end row : 139982 with load 3298536
+start row : 139982, end row : 220542 with load 3298399
+Multi Thread Computation End: 10401849 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 42696103 us.
+Multi Thread Computation Start
+total load : 9895422 with threshold : 2473855
+start row : 0, end row : 51656 with load 2473866
+start row : 51656, end row : 103976 with load 2473858
+start row : 103976, end row : 158264 with load 2473875
+start row : 158264, end row : 220542 with load 2473823
+Multi Thread Computation End: 9119745 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 42684130 us.
+Multi Thread Computation Start
+total load : 9895422 with threshold : 1979084
+start row : 0, end row : 41659 with load 1979105
+start row : 41659, end row : 82376 with load 1979146
+start row : 82376, end row : 125631 with load 1979139
+start row : 125631, end row : 169475 with load 1979120
+start row : 169475, end row : 220542 with load 1978912
+Multi Thread Computation End: 7349272 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 42703740 us.
+Multi Thread Computation Start
+total load : 9895422 with threshold : 1649237
+start row : 0, end row : 34973 with load 1649263
+start row : 34973, end row : 68640 with load 1649286
+start row : 68640, end row : 103978 with load 1649297
+start row : 103978, end row : 139983 with load 1649240
+start row : 139983, end row : 177096 with load 1649267
+start row : 177096, end row : 220542 with load 1649069
+Multi Thread Computation End: 6201307 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/m133-b3.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 2331194 us.
+Multi Thread Computation Start
+total load : 800800 with threshold : 800800
+start row : 0, end row : 200200 with load 800800
+Multi Thread Computation End: 1814027 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 2327123 us.
+Multi Thread Computation Start
+total load : 800800 with threshold : 400400
+start row : 0, end row : 100100 with load 400400
+start row : 100100, end row : 200200 with load 400400
+Multi Thread Computation End: 945730 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 2321866 us.
+Multi Thread Computation Start
+total load : 800800 with threshold : 266933
+start row : 0, end row : 66734 with load 266936
+start row : 66734, end row : 133468 with load 266936
+start row : 133468, end row : 200200 with load 266928
+Multi Thread Computation End: 672646 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 2326831 us.
+Multi Thread Computation Start
+total load : 800800 with threshold : 200200
+start row : 0, end row : 50050 with load 200200
+start row : 50050, end row : 100100 with load 200200
+start row : 100100, end row : 150150 with load 200200
+start row : 150150, end row : 200200 with load 200200
+Multi Thread Computation End: 589927 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 2327814 us.
+Multi Thread Computation Start
+total load : 800800 with threshold : 160160
+start row : 0, end row : 40040 with load 160160
+start row : 40040, end row : 80080 with load 160160
+start row : 80080, end row : 120120 with load 160160
+start row : 120120, end row : 160160 with load 160160
+start row : 160160, end row : 200200 with load 160160
+Multi Thread Computation End: 505592 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 2329810 us.
+Multi Thread Computation Start
+total load : 800800 with threshold : 133466
+start row : 0, end row : 33367 with load 133468
+start row : 33367, end row : 66734 with load 133468
+start row : 66734, end row : 100101 with load 133468
+start row : 100101, end row : 133468 with load 133468
+start row : 133468, end row : 166835 with load 133468
+start row : 166835, end row : 200200 with load 133460
+Multi Thread Computation End: 462761 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/mac_econ_fwd500.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 4311377 us.
+Multi Thread Computation Start
+total load : 1273389 with threshold : 1273389
+start row : 0, end row : 206500 with load 1273389
+Multi Thread Computation End: 3337651 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 4315082 us.
+Multi Thread Computation Start
+total load : 1273389 with threshold : 636694
+start row : 0, end row : 103275 with load 636695
+start row : 103275, end row : 206500 with load 636694
+Multi Thread Computation End: 1715117 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 4317122 us.
+Multi Thread Computation Start
+total load : 1273389 with threshold : 424463
+start row : 0, end row : 68870 with load 424463
+start row : 68870, end row : 137681 with load 424467
+start row : 137681, end row : 206500 with load 424459
+Multi Thread Computation End: 1170513 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 4312043 us.
+Multi Thread Computation Start
+total load : 1273389 with threshold : 318347
+start row : 0, end row : 51672 with load 318353
+start row : 51672, end row : 103276 with load 318348
+start row : 103276, end row : 154875 with load 318355
+start row : 154875, end row : 206500 with load 318333
+Multi Thread Computation End: 1031853 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 4316595 us.
+Multi Thread Computation Start
+total load : 1273389 with threshold : 254677
+start row : 0, end row : 41356 with load 254679
+start row : 41356, end row : 82633 with load 254679
+start row : 82633, end row : 123915 with load 254679
+start row : 123915, end row : 165192 with load 254680
+start row : 165192, end row : 206500 with load 254672
+Multi Thread Computation End: 854179 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 4307624 us.
+Multi Thread Computation Start
+total load : 1273389 with threshold : 212231
+start row : 0, end row : 34483 with load 212234
+start row : 34483, end row : 68871 with load 212235
+start row : 68871, end row : 103276 with load 212232
+start row : 103276, end row : 137682 with load 212253
+start row : 137682, end row : 172084 with load 212264
+start row : 172084, end row : 206500 with load 212171
+Multi Thread Computation End: 720603 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/majorbasis.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 10055871 us.
+Multi Thread Computation Start
+total load : 1750416 with threshold : 1750416
+start row : 0, end row : 160000 with load 1750416
+Multi Thread Computation End: 8036760 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 10117843 us.
+Multi Thread Computation Start
+total load : 1750416 with threshold : 875208
+start row : 0, end row : 80000 with load 875208
+start row : 80000, end row : 160000 with load 875208
+Multi Thread Computation End: 4050034 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 10110239 us.
+Multi Thread Computation Start
+total load : 1750416 with threshold : 583472
+start row : 0, end row : 53352 with load 583479
+start row : 53352, end row : 106650 with load 583480
+start row : 106650, end row : 160000 with load 583457
+Multi Thread Computation End: 2740062 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 10088508 us.
+Multi Thread Computation Start
+total load : 1750416 with threshold : 437604
+start row : 0, end row : 40000 with load 437604
+start row : 40000, end row : 80000 with load 437604
+start row : 80000, end row : 120000 with load 437604
+start row : 120000, end row : 160000 with load 437604
+Multi Thread Computation End: 2425805 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 10114475 us.
+Multi Thread Computation Start
+total load : 1750416 with threshold : 350083
+start row : 0, end row : 31968 with load 350093
+start row : 31968, end row : 63990 with load 350086
+start row : 63990, end row : 96013 with load 350091
+start row : 96013, end row : 128035 with load 350086
+start row : 128035, end row : 160000 with load 350060
+Multi Thread Computation End: 1953761 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 10110117 us.
+Multi Thread Computation Start
+total load : 1750416 with threshold : 291736
+start row : 0, end row : 26649 with load 291740
+start row : 26649, end row : 53352 with load 291739
+start row : 53352, end row : 80002 with load 291743
+start row : 80002, end row : 106650 with load 291737
+start row : 106650, end row : 133353 with load 291739
+start row : 133353, end row : 160000 with load 291718
+Multi Thread Computation End: 1646017 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/mario002.mtx 512
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 2692066 us.
+Multi Thread Computation Start
+total load : 2097566 with threshold : 2097566
+start row : 0, end row : 389874 with load 2097566
+Multi Thread Computation End: 2151723 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 2692859 us.
+Multi Thread Computation Start
+total load : 2097566 with threshold : 1048783
+start row : 0, end row : 150795 with load 1048786
+start row : 150795, end row : 389874 with load 1048780
+Multi Thread Computation End: 1162695 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 2687094 us.
+Multi Thread Computation Start
+total load : 2097566 with threshold : 699188
+start row : 0, end row : 100794 with load 699191
+start row : 100794, end row : 200834 with load 699189
+start row : 200834, end row : 389874 with load 699186
+Multi Thread Computation End: 835097 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 2693750 us.
+Multi Thread Computation Start
+total load : 2097566 with threshold : 524391
+start row : 0, end row : 75796 with load 524391
+start row : 75796, end row : 150795 with load 524395
+start row : 150795, end row : 225821 with load 524397
+start row : 225821, end row : 389874 with load 524383
+Multi Thread Computation End: 746462 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 2695021 us.
+Multi Thread Computation Start
+total load : 2097566 with threshold : 419513
+start row : 0, end row : 60797 with load 419513
+start row : 60797, end row : 120788 with load 419514
+start row : 120788, end row : 180821 with load 419513
+start row : 180821, end row : 250037 with load 419515
+start row : 250037, end row : 389874 with load 419511
+Multi Thread Computation End: 637927 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 2699044 us.
+Multi Thread Computation Start
+total load : 2097566 with threshold : 349594
+start row : 0, end row : 50800 with load 349599
+start row : 50800, end row : 100795 with load 349599
+start row : 100795, end row : 150796 with load 349595
+start row : 150796, end row : 200835 with load 349594
+start row : 200835, end row : 273346 with load 349595
+start row : 273346, end row : 389874 with load 349584
+Multi Thread Computation End: 572403 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/mc2depi.mtx 512
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 2712693 us.
+Multi Thread Computation Start
+total load : 2100225 with threshold : 2100225
+start row : 0, end row : 525825 with load 2100225
+Multi Thread Computation End: 2093085 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 2710274 us.
+Multi Thread Computation Start
+total load : 2100225 with threshold : 1050112
+start row : 0, end row : 262913 with load 1050114
+start row : 262913, end row : 525825 with load 1050111
+Multi Thread Computation End: 1093229 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 2706676 us.
+Multi Thread Computation Start
+total load : 2100225 with threshold : 700075
+start row : 0, end row : 175318 with load 700075
+start row : 175318, end row : 350508 with load 700077
+start row : 350508, end row : 525825 with load 700073
+Multi Thread Computation End: 777161 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 2711810 us.
+Multi Thread Computation Start
+total load : 2100225 with threshold : 525056
+start row : 0, end row : 131521 with load 525058
+start row : 131521, end row : 262913 with load 525056
+start row : 262913, end row : 394305 with load 525056
+start row : 394305, end row : 525825 with load 525055
+Multi Thread Computation End: 696756 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 2712990 us.
+Multi Thread Computation Start
+total load : 2100225 with threshold : 420045
+start row : 0, end row : 105242 with load 420045
+start row : 105242, end row : 210356 with load 420046
+start row : 210356, end row : 315470 with load 420046
+start row : 315470, end row : 420584 with load 420046
+start row : 420584, end row : 525825 with load 420042
+Multi Thread Computation End: 597924 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 2713318 us.
+Multi Thread Computation Start
+total load : 2100225 with threshold : 350037
+start row : 0, end row : 87723 with load 350037
+start row : 87723, end row : 175318 with load 350038
+start row : 175318, end row : 262913 with load 350039
+start row : 262913, end row : 350508 with load 350038
+start row : 350508, end row : 438103 with load 350039
+start row : 438103, end row : 525825 with load 350034
+Multi Thread Computation End: 572003 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/offshore.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 20788572 us.
+Multi Thread Computation Start
+total load : 4242673 with threshold : 4242673
+start row : 0, end row : 259789 with load 4242673
+Multi Thread Computation End: 16868705 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 20766606 us.
+Multi Thread Computation Start
+total load : 4242673 with threshold : 2121336
+start row : 0, end row : 129966 with load 2121336
+start row : 129966, end row : 259789 with load 2121337
+Multi Thread Computation End: 8676647 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 20769549 us.
+Multi Thread Computation Start
+total load : 4242673 with threshold : 1414224
+start row : 0, end row : 86820 with load 1414237
+start row : 86820, end row : 172767 with load 1414231
+start row : 172767, end row : 259789 with load 1414205
+Multi Thread Computation End: 5927390 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 20784323 us.
+Multi Thread Computation Start
+total load : 4242673 with threshold : 1060668
+start row : 0, end row : 65039 with load 1060668
+start row : 65039, end row : 129966 with load 1060668
+start row : 129966, end row : 194585 with load 1060672
+start row : 194585, end row : 259789 with load 1060665
+Multi Thread Computation End: 5201013 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 20769774 us.
+Multi Thread Computation Start
+total load : 4242673 with threshold : 848534
+start row : 0, end row : 52024 with load 848546
+start row : 52024, end row : 104173 with load 848541
+start row : 104173, end row : 155545 with load 848545
+start row : 155545, end row : 207608 with load 848545
+start row : 207608, end row : 259789 with load 848496
+Multi Thread Computation End: 4191207 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 20789820 us.
+Multi Thread Computation Start
+total load : 4242673 with threshold : 707112
+start row : 0, end row : 43305 with load 707129
+start row : 43305, end row : 86821 with load 707130
+start row : 86821, end row : 129969 with load 707128
+start row : 129969, end row : 172769 with load 707113
+start row : 172769, end row : 216137 with load 707112
+start row : 216137, end row : 259789 with load 707061
+Multi Thread Computation End: 3541513 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/patents_main.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 2202935 us.
+Multi Thread Computation Start
+total load : 560943 with threshold : 560943
+start row : 0, end row : 240547 with load 560943
+Multi Thread Computation End: 1876181 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 2201825 us.
+Multi Thread Computation Start
+total load : 560943 with threshold : 280471
+start row : 0, end row : 132074 with load 280471
+start row : 132074, end row : 240547 with load 280472
+Multi Thread Computation End: 1028181 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 2203262 us.
+Multi Thread Computation Start
+total load : 560943 with threshold : 186981
+start row : 0, end row : 96935 with load 186982
+start row : 96935, end row : 167358 with load 186982
+start row : 167358, end row : 240547 with load 186979
+Multi Thread Computation End: 765341 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 2204121 us.
+Multi Thread Computation Start
+total load : 560943 with threshold : 140235
+start row : 0, end row : 79593 with load 140235
+start row : 79593, end row : 132074 with load 140236
+start row : 132074, end row : 185436 with load 140237
+start row : 185436, end row : 240547 with load 140235
+Multi Thread Computation End: 684706 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 2202873 us.
+Multi Thread Computation Start
+total load : 560943 with threshold : 112188
+start row : 0, end row : 69319 with load 112189
+start row : 69319, end row : 110634 with load 112190
+start row : 110634, end row : 153309 with load 112191
+start row : 153309, end row : 197511 with load 112188
+start row : 197511, end row : 240547 with load 112185
+Multi Thread Computation End: 612424 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 2202959 us.
+Multi Thread Computation Start
+total load : 560943 with threshold : 93490
+start row : 0, end row : 62670 with load 93490
+start row : 62670, end row : 96934 with load 93490
+start row : 96934, end row : 132074 with load 93491
+start row : 132074, end row : 167358 with load 93493
+start row : 167358, end row : 205790 with load 93491
+start row : 205790, end row : 240547 with load 93488
+Multi Thread Computation End: 577776 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/pdb1HYS.mtx 4096
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 195440325 us.
+Multi Thread Computation Start
+total load : 4344765 with threshold : 4344765
+start row : 0, end row : 36417 with load 4344765
+Multi Thread Computation End: 189857447 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 195663940 us.
+Multi Thread Computation Start
+total load : 4344765 with threshold : 2172382
+start row : 0, end row : 18265 with load 2172490
+start row : 18265, end row : 36417 with load 2172275
+Multi Thread Computation End: 98086475 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 195723639 us.
+Multi Thread Computation Start
+total load : 4344765 with threshold : 1448255
+start row : 0, end row : 12303 with load 1448264
+start row : 12303, end row : 24531 with load 1448302
+start row : 24531, end row : 36417 with load 1448199
+Multi Thread Computation End: 68986349 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 195613160 us.
+Multi Thread Computation Start
+total load : 4344765 with threshold : 1086191
+start row : 0, end row : 9297 with load 1086265
+start row : 9297, end row : 18265 with load 1086225
+start row : 18265, end row : 27431 with load 1086311
+start row : 27431, end row : 36417 with load 1085964
+Multi Thread Computation End: 57134310 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 195449093 us.
+Multi Thread Computation Start
+total load : 4344765 with threshold : 868953
+start row : 0, end row : 7508 with load 868958
+start row : 7508, end row : 14807 with load 869074
+start row : 14807, end row : 22196 with load 868997
+start row : 22196, end row : 29336 with load 868971
+start row : 29336, end row : 36417 with load 868765
+Multi Thread Computation End: 48155085 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 195505326 us.
+Multi Thread Computation Start
+total load : 4344765 with threshold : 724127
+start row : 0, end row : 6244 with load 724256
+start row : 6244, end row : 12305 with load 724230
+start row : 12305, end row : 18266 with load 724157
+start row : 18266, end row : 24533 with load 724319
+start row : 24533, end row : 30490 with load 724193
+start row : 30490, end row : 36417 with load 723610
+Multi Thread Computation End: 41462506 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/poisson3Da.mtx 16384
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 129756895 us.
+Multi Thread Computation Start
+total load : 352762 with threshold : 352762
+start row : 0, end row : 13514 with load 352762
+Multi Thread Computation End: 129903692 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 130076641 us.
+Multi Thread Computation Start
+total load : 352762 with threshold : 176381
+start row : 0, end row : 5442 with load 176390
+start row : 5442, end row : 13514 with load 176372
+Multi Thread Computation End: 66198730 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 133122733 us.
+Multi Thread Computation Start
+total load : 352762 with threshold : 117587
+start row : 0, end row : 2816 with load 117595
+start row : 2816, end row : 8084 with load 117607
+start row : 8084, end row : 13514 with load 117560
+Multi Thread Computation End: 51601914 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 142638235 us.
+Multi Thread Computation Start
+total load : 352762 with threshold : 88190
+start row : 0, end row : 1478 with load 88213
+start row : 1478, end row : 5443 with load 88196
+start row : 5443, end row : 9489 with load 88210
+start row : 9489, end row : 13514 with load 88143
+Multi Thread Computation End: 37872887 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 129841074 us.
+Multi Thread Computation Start
+total load : 352762 with threshold : 70552
+start row : 0, end row : 1172 with load 70569
+start row : 1172, end row : 3877 with load 70556
+start row : 3877, end row : 6999 with load 70561
+start row : 6999, end row : 10267 with load 70564
+start row : 10267, end row : 13514 with load 70512
+Multi Thread Computation End: 30506937 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 129919485 us.
+Multi Thread Computation Start
+total load : 352762 with threshold : 58793
+start row : 0, end row : 986 with load 58809
+start row : 986, end row : 2817 with load 58809
+start row : 2817, end row : 5444 with load 58810
+start row : 5444, end row : 8085 with load 58801
+start row : 8085, end row : 10815 with load 58804
+start row : 10815, end row : 13514 with load 58729
+Multi Thread Computation End: 25624298 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/pwtk.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 48705483 us.
+Multi Thread Computation Start
+total load : 11524432 with threshold : 11524432
+start row : 0, end row : 217918 with load 11524432
+Multi Thread Computation End: 33739905 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 48656650 us.
+Multi Thread Computation Start
+total load : 11524432 with threshold : 5762216
+start row : 0, end row : 108770 with load 5762250
+start row : 108770, end row : 217918 with load 5762182
+Multi Thread Computation End: 17057800 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 48686634 us.
+Multi Thread Computation Start
+total load : 11524432 with threshold : 3841477
+start row : 0, end row : 71545 with load 3841525
+start row : 71545, end row : 144574 with load 3841482
+start row : 144574, end row : 217918 with load 3841425
+Multi Thread Computation End: 11562223 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 48690879 us.
+Multi Thread Computation Start
+total load : 11524432 with threshold : 2881108
+start row : 0, end row : 53683 with load 2881145
+start row : 53683, end row : 108771 with load 2881159
+start row : 108771, end row : 162486 with load 2881133
+start row : 162486, end row : 217918 with load 2880995
+Multi Thread Computation End: 10104216 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 48651980 us.
+Multi Thread Computation Start
+total load : 11524432 with threshold : 2304886
+start row : 0, end row : 43013 with load 2304903
+start row : 43013, end row : 85782 with load 2304924
+start row : 85782, end row : 130314 with load 2304910
+start row : 130314, end row : 173182 with load 2304899
+start row : 173182, end row : 217918 with load 2304796
+Multi Thread Computation End: 8126468 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 48692513 us.
+Multi Thread Computation Start
+total load : 11524432 with threshold : 1920738
+start row : 0, end row : 35887 with load 1920741
+start row : 35887, end row : 71545 with load 1920784
+start row : 71545, end row : 108771 with load 1920779
+start row : 108771, end row : 144575 with load 1920757
+start row : 144575, end row : 181046 with load 1920768
+start row : 181046, end row : 217918 with load 1920603
+Multi Thread Computation End: 6814204 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/rma10.mtx 4096
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 97074846 us.
+Multi Thread Computation Start
+total load : 2329092 with threshold : 2329092
+start row : 0, end row : 46835 with load 2329092
+Multi Thread Computation End: 94789724 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 97008026 us.
+Multi Thread Computation Start
+total load : 2329092 with threshold : 1164546
+start row : 0, end row : 25022 with load 1164579
+start row : 25022, end row : 46835 with load 1164513
+Multi Thread Computation End: 49171849 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 97033040 us.
+Multi Thread Computation Start
+total load : 2329092 with threshold : 776364
+start row : 0, end row : 19017 with load 776364
+start row : 19017, end row : 35709 with load 776400
+start row : 35709, end row : 46835 with load 776328
+Multi Thread Computation End: 35545356 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 97074169 us.
+Multi Thread Computation Start
+total load : 2329092 with threshold : 582273
+start row : 0, end row : 15674 with load 582278
+start row : 15674, end row : 25022 with load 582301
+start row : 25022, end row : 39556 with load 582283
+start row : 39556, end row : 46835 with load 582230
+Multi Thread Computation End: 28999568 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 97060427 us.
+Multi Thread Computation Start
+total load : 2329092 with threshold : 465818
+start row : 0, end row : 13259 with load 465834
+start row : 13259, end row : 21594 with load 465889
+start row : 21594, end row : 30507 with load 465839
+start row : 30507, end row : 40978 with load 465826
+start row : 40978, end row : 46835 with load 465704
+Multi Thread Computation End: 23927810 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 96967571 us.
+Multi Thread Computation Start
+total load : 2329092 with threshold : 388182
+start row : 0, end row : 11330 with load 388202
+start row : 11330, end row : 19018 with load 388213
+start row : 19018, end row : 25023 with load 388196
+start row : 25023, end row : 35710 with load 388200
+start row : 35710, end row : 41922 with load 388210
+start row : 41922, end row : 46835 with load 388071
+Multi Thread Computation End: 20281134 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/scircuit.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 3254749 us.
+Multi Thread Computation Start
+total load : 958936 with threshold : 958936
+start row : 0, end row : 170998 with load 958936
+Multi Thread Computation End: 2346971 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 3252812 us.
+Multi Thread Computation Start
+total load : 958936 with threshold : 479468
+start row : 0, end row : 82292 with load 479469
+start row : 82292, end row : 170998 with load 479467
+Multi Thread Computation End: 1210733 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 3258153 us.
+Multi Thread Computation Start
+total load : 958936 with threshold : 319645
+start row : 0, end row : 54916 with load 319647
+start row : 54916, end row : 106601 with load 319647
+start row : 106601, end row : 170998 with load 319642
+Multi Thread Computation End: 854629 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 3258329 us.
+Multi Thread Computation Start
+total load : 958936 with threshold : 239734
+start row : 0, end row : 41150 with load 239734
+start row : 41150, end row : 82292 with load 239735
+start row : 82292, end row : 117899 with load 239738
+start row : 117899, end row : 170998 with load 239729
+Multi Thread Computation End: 769808 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 3261062 us.
+Multi Thread Computation Start
+total load : 958936 with threshold : 191787
+start row : 0, end row : 32847 with load 191796
+start row : 32847, end row : 66550 with load 191790
+start row : 66550, end row : 96712 with load 191796
+start row : 96712, end row : 125044 with load 191788
+start row : 125044, end row : 170998 with load 191766
+Multi Thread Computation End: 636913 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 3253875 us.
+Multi Thread Computation Start
+total load : 958936 with threshold : 159822
+start row : 0, end row : 28129 with load 159832
+start row : 28129, end row : 54918 with load 159826
+start row : 54918, end row : 82294 with load 159826
+start row : 82294, end row : 106603 with load 159830
+start row : 106603, end row : 131442 with load 159823
+start row : 131442, end row : 170998 with load 159799
+Multi Thread Computation End: 544084 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/shipsec1.mtx 1024
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 16768903 us.
+Multi Thread Computation Start
+total load : 3568176 with threshold : 3568176
+start row : 0, end row : 140874 with load 3568176
+Multi Thread Computation End: 13221846 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 16758598 us.
+Multi Thread Computation Start
+total load : 3568176 with threshold : 1784088
+start row : 0, end row : 70878 with load 1784105
+start row : 70878, end row : 140874 with load 1784071
+Multi Thread Computation End: 6742532 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 16750445 us.
+Multi Thread Computation Start
+total load : 3568176 with threshold : 1189392
+start row : 0, end row : 47292 with load 1189436
+start row : 47292, end row : 94514 with load 1189410
+start row : 94514, end row : 140874 with load 1189330
+Multi Thread Computation End: 4655764 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 16754482 us.
+Multi Thread Computation Start
+total load : 3568176 with threshold : 892044
+start row : 0, end row : 35076 with load 892060
+start row : 35076, end row : 70878 with load 892045
+start row : 70878, end row : 106906 with load 892070
+start row : 106906, end row : 140874 with load 892001
+Multi Thread Computation End: 4050171 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 16750574 us.
+Multi Thread Computation Start
+total load : 3568176 with threshold : 713635
+start row : 0, end row : 27460 with load 713636
+start row : 27460, end row : 57051 with load 713645
+start row : 57051, end row : 85041 with load 713656
+start row : 85041, end row : 114135 with load 713636
+start row : 114135, end row : 140874 with load 713603
+Multi Thread Computation End: 3260184 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 16755656 us.
+Multi Thread Computation Start
+total load : 3568176 with threshold : 594696
+start row : 0, end row : 22446 with load 594737
+start row : 22446, end row : 47292 with load 594699
+start row : 47292, end row : 70880 with load 594722
+start row : 70880, end row : 94515 with load 594717
+start row : 94515, end row : 118799 with load 594718
+start row : 118799, end row : 140874 with load 594583
+Multi Thread Computation End: 2765272 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+test for : ./matrix/webbase-1M.mtx 256
+--------------------------------------------------------------------
+# of thread : 1
+Single Thread Computation Start
+Single Thread Computation End: 2695549 us.
+Multi Thread Computation Start
+total load : 3105536 with threshold : 3105536
+start row : 0, end row : 1000005 with load 3105536
+Multi Thread Computation End: 2235078 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 2
+Single Thread Computation Start
+Single Thread Computation End: 2693037 us.
+Multi Thread Computation Start
+total load : 3105536 with threshold : 1552768
+start row : 0, end row : 447833 with load 1552770
+start row : 447833, end row : 1000005 with load 1552766
+Multi Thread Computation End: 1298488 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 3
+Single Thread Computation Start
+Single Thread Computation End: 2692872 us.
+Multi Thread Computation Start
+total load : 3105536 with threshold : 1035178
+start row : 0, end row : 233949 with load 1035178
+start row : 233949, end row : 602486 with load 1035178
+start row : 602486, end row : 1000005 with load 1035180
+Multi Thread Computation End: 994354 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 4
+Single Thread Computation Start
+Single Thread Computation End: 2692277 us.
+Multi Thread Computation Start
+total load : 3105536 with threshold : 776384
+start row : 0, end row : 130323 with load 776385
+start row : 130323, end row : 447833 with load 776385
+start row : 447833, end row : 661328 with load 776402
+start row : 661328, end row : 1000005 with load 776364
+Multi Thread Computation End: 876647 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 5
+Single Thread Computation Start
+Single Thread Computation End: 2694958 us.
+Multi Thread Computation Start
+total load : 3105536 with threshold : 621107
+start row : 0, end row : 87268 with load 621124
+start row : 87268, end row : 316454 with load 621107
+start row : 316454, end row : 573970 with load 621108
+start row : 573970, end row : 719212 with load 621107
+start row : 719212, end row : 1000005 with load 621090
+Multi Thread Computation End: 774482 us.
+error : 0
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+# of thread : 6
+Single Thread Computation Start
+Single Thread Computation End: 2691759 us.
+Multi Thread Computation Start
+total load : 3105536 with threshold : 517589
+start row : 0, end row : 55876 with load 517589
+start row : 55876, end row : 233949 with load 517589
+start row : 233949, end row : 447832 with load 517589
+start row : 447832, end row : 602486 with load 517589
+start row : 602486, end row : 767203 with load 517590
+start row : 767203, end row : 1000005 with load 517590
+Multi Thread Computation End: 732324 us.
+error : 0
+--------------------------------------------------------------------

@@ -1,0 +1,108 @@
+Single Thread Computation Start
+error : 1.3828e-21
+Single Thread Computation End: 4099308 us.
+Multi Thread Computation Start
+error : 1.3828e-21
+Multi Thread Computation End: 4285178 us.
+Single Thread Computation Start
+error : 3.05046e-23
+Single Thread Computation End: 4182901 us.
+Multi Thread Computation Start
+error : 3.05046e-23
+Multi Thread Computation End: 2238441 us.
+Single Thread Computation Start
+error : 1.23662e-22
+Single Thread Computation End: 4145193 us.
+Multi Thread Computation Start
+error : 1.23662e-22
+Multi Thread Computation End: 1541338 us.
+Single Thread Computation Start
+error : 6.66298e-21
+Single Thread Computation End: 4093962 us.
+Multi Thread Computation Start
+error : 6.66298e-21
+Multi Thread Computation End: 1402309 us.
+Single Thread Computation Start
+error : 1.10785e-23
+Single Thread Computation End: 4097900 us.
+Multi Thread Computation Start
+error : 1.10785e-23
+Multi Thread Computation End: 1129903 us.
+Single Thread Computation Start
+error : 8.35136e-23
+Single Thread Computation End: 4098679 us.
+Multi Thread Computation Start
+error : 8.35136e-23
+Multi Thread Computation End: 955347 us.
+Single Thread Computation Start
+error : 4.65942e-16
+Single Thread Computation End: 110532885 us.
+Multi Thread Computation Start
+error : 4.65942e-16
+Multi Thread Computation End: 120490037 us.
+Single Thread Computation Start
+error : 1.00707e-21
+Single Thread Computation End: 111367635 us.
+Multi Thread Computation Start
+error : 1.00707e-21
+Multi Thread Computation End: 60576421 us.
+Single Thread Computation Start
+error : 7.68581e-21
+Single Thread Computation End: 111537482 us.
+Multi Thread Computation Start
+error : 7.68581e-21
+Multi Thread Computation End: 41113053 us.
+Single Thread Computation Start
+error : 5.33735e-20
+Single Thread Computation End: 111388030 us.
+Multi Thread Computation Start
+error : 5.33735e-20
+Multi Thread Computation End: 36478968 us.
+Single Thread Computation Start
+error : 2.80042e-20
+Single Thread Computation End: 111598728 us.
+Multi Thread Computation Start
+error : 2.80042e-20
+Multi Thread Computation End: 29475045 us.
+Single Thread Computation Start
+error : 2.00699e-21
+Single Thread Computation End: 111560596 us.
+Multi Thread Computation Start
+error : 2.00699e-21
+Multi Thread Computation End: 24672113 us.
+Single Thread Computation Start
+error : 3.69185e-20
+Single Thread Computation End: 515543377 us.
+Multi Thread Computation Start
+error : 3.69185e-20
+Multi Thread Computation End: 555819846 us.
+Single Thread Computation Start
+error : 3.81713e-19
+Single Thread Computation End: 512396610 us.
+Multi Thread Computation Start
+error : 3.81713e-19
+Multi Thread Computation End: 279543052 us.
+Single Thread Computation Start
+error : 2.21846e-19
+Single Thread Computation End: 528611104 us.
+Multi Thread Computation Start
+error : 2.21846e-19
+Multi Thread Computation End: 194248731 us.
+Single Thread Computation Start
+error : 1.32617e-18
+Single Thread Computation End: 516863370 us.
+Multi Thread Computation Start
+error : 1.32617e-18
+Multi Thread Computation End: 185877573 us.
+Single Thread Computation Start
+error : 1.01121e-19
+Single Thread Computation End: 515284830 us.
+Multi Thread Computation Start
+error : 1.01121e-19
+Multi Thread Computation End: 149686051 us.
+Single Thread Computation Start
+error : 1.38228e-19
+Single Thread Computation End: 522356463 us.
+Multi Thread Computation Start
+error : 1.38228e-19
+Multi Thread Computation End: 119401532 us.

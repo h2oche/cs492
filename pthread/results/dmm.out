@@ -1,0 +1,90 @@
+Single Thread Computation Start
+Single Thread Computation End: 2620685 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 1558487 us.
+error : 1.58846e-07
+Single Thread Computation Start
+Single Thread Computation End: 2616856 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 779998 us.
+error : 1.58669e-07
+Single Thread Computation Start
+Single Thread Computation End: 2606495 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 531705 us.
+error : 1.58567e-07
+Single Thread Computation Start
+Single Thread Computation End: 2609610 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 468179 us.
+error : 1.5876e-07
+Single Thread Computation Start
+Single Thread Computation End: 2626173 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 386919 us.
+error : 1.58639e-07
+Single Thread Computation Start
+Single Thread Computation End: 2594758 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 325865 us.
+error : 1.58934e-07
+Single Thread Computation Start
+Single Thread Computation End: 103566536 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 42307545 us.
+error : 8.43665e-06
+Single Thread Computation Start
+Single Thread Computation End: 103565156 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 21200616 us.
+error : 8.44126e-06
+Single Thread Computation Start
+Single Thread Computation End: 103140536 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 14240147 us.
+error : 8.43936e-06
+Single Thread Computation Start
+Single Thread Computation End: 103569637 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 12447125 us.
+error : 8.43977e-06
+Single Thread Computation Start
+Single Thread Computation End: 103152761 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 9976560 us.
+error : 8.43954e-06
+Single Thread Computation Start
+Single Thread Computation End: 103086703 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 8343880 us.
+error : 8.43484e-06
+Single Thread Computation Start
+Single Thread Computation End: 475899728 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 195610238 us.
+error : 5.12566e-05
+Single Thread Computation Start
+Single Thread Computation End: 474742510 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 99188196 us.
+error : 5.12784e-05
+Single Thread Computation Start
+Single Thread Computation End: 475403909 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 66651681 us.
+error : 5.12985e-05
+Single Thread Computation Start
+Single Thread Computation End: 475516002 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 58274803 us.
+error : 5.12851e-05
+Single Thread Computation Start
+Single Thread Computation End: 475452191 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 47033989 us.
+error : 5.12708e-05
+Single Thread Computation Start
+Single Thread Computation End: 475671742 us.
+Multi Thread Computation Start
+Multi Thread Computation End: 39273860 us.
+error : 5.12805e-05
