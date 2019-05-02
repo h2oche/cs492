@@ -8,4 +8,4 @@ typedef std::vector<double> vd;
 uint64_t GetTimeStamp();
 void random_init(void);
 void fillRandom(vd*);
-#endif // !__HELPER_HPP__
+#endif // !__HELPER_HPP__ 

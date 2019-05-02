@@ -25,7 +25,7 @@ void print_vd(vd* _vd, int _size) {
   cout << "----------------------------------------" << endl;
 }
 
-/* single linear system solver
+/* single linear system solver 
 1. gaussian elimination
 2. backward propagation */
 void solve_single(vd* _A, vd* _b, vd* _x, int _size) {
@@ -127,13 +127,11 @@ void solve_omp(vd* _A, vd* _b, vd* _x, int _size, int _nThread) {
       2. b[k] = b[k] - m * b[j]
       where m = A[k,j] / A[j,j]*/
       #pragma omp for
-      {
-        for(int k = j + 1 ; k < _size ; k++) {
-          double m = (*_A)[k * _size + j] / (*_A)[j * _size + j];
-          for(int i = j ; i < _size ; i++)
-            (*_A)[k * _size + i] -= m * (*_A)[j*_size + i];
-          (*_b)[k] -= m * (*_b)[j];
-        }
+      for(int k = j + 1 ; k < _size ; k++) {
+        double m = (*_A)[k * _size + j] / (*_A)[j * _size + j];
+        for(int i = j ; i < _size ; i++)
+          (*_A)[k * _size + i] -= m * (*_A)[j*_size + i];
+        (*_b)[k] -= m * (*_b)[j];
       }
     }
 

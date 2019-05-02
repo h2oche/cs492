@@ -11,7 +11,7 @@ bool CoordinateCompare( const Coordinate &c1, const Coordinate &c2 )
 }
 
 // Class definition
-
+ 
 int MatrixMarketReader::MMReadHeader( FILE* mm_file )
 {
     int status = MMReadBanner( mm_file );

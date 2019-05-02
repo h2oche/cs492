@@ -97,8 +97,10 @@ void multiply_single(struct sparse_mtx *A, struct dense_mtx *B, struct dense_mtx
 
 void multiply_openmp(struct sparse_mtx *A, struct dense_mtx *B, struct dense_mtx *C, int _nThread)
 {
-    #pragma omp parallel num_threads(_nThread) for schedule(guided)
-    for(int i = 0 ; i < A->nrow; i ++) {
+    #pragma omp parallel num_threads(_nThread)
+    {
+        #pragma omp for schedule(guided)
+        for(int i = 0 ; i < A->nrow; i ++) {
         int startColIdx = A->row[i];
         int endColIdx = i+1 < A->nrow ? A->row[i+1] : A->nrow;
         for(int j = 0 ; j < B->ncol; j ++) {
@@ -107,7 +109,8 @@ void multiply_openmp(struct sparse_mtx *A, struct dense_mtx *B, struct dense_mtx
             }
         }
     }
-}
+    }
+} 
 
 uint64_t GetTimeStamp() {
     struct timeval tv;

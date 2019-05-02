@@ -29,14 +29,15 @@ void multiply_single(vd* _A, vd* _B, vd* _C, int _size) {
 }
 
 void multiply_omp(vd* _A, vd* _B, vd* _C, int _size, int _nThread) {
-  #pragma omp parallel num_threads(_nThread)
-  #pragma omp for
+  double sum = 0;
+  #pragma omp parallel num_threads(_nThread) shared(_A, _B, _C, _size) private(sum)
   {
+    #pragma omp for
     for(int i = 0 ; i < _size ; i++) {
       for(int j = 0 ; j < _size ; j++) { 
-        double sum = 0;
+        sum = 0;
         int iBuf = i * _size;
-        for(int k = 0 ; k < _size ; k++)
+        for(int k = 0 ; k < _size ; k++) 
           sum += (*_A)[iBuf + k] * (*_B)[k * _size + j];
         (*_C)[iBuf + j] = sum;
       }

@@ -8,19 +8,19 @@ all: $(TARGET)
 	rm *.o
 
 lssolver: lssolver.o helper.o
-	$(CC) -O2 -g -fopenmp -o $@ $^ -std=c++11
+	$(CC) -O2 -g -lomp -Xpreprocessor -fopenmp -o $@ $^ -std=c++11
 
 dmm: dmm.o helper.o
-	$(CC) -O2 -fopenmp -g -pthread -o $@ $^ -std=c++11
+	$(CC) -O2 -lomp -Xpreprocessor -fopenmp -g -pthread -o $@ $^ -std=c++11
 
 sparse: sparse.o mmreader.o
-	$(CC) -O2 -g -fopenmp -o $@ $^ -std=c++11
+	$(CC) -O2 -g -lomp -Xpreprocessor -fopenmp -o $@ $^ -std=c++11
 
 lssolver.o : lssolver.cpp
-	$(CC) -g -fopenmp -c -o $@ $^ -std=c++11
+	$(CC) -g -lomp -Xpreprocessor -fopenmp -c -o $@ $^ -std=c++11
 
 dmm.o: dmm.cpp
-	$(CC) -O2 -g -fopenmp -c -o $@ $^ -std=c++11
+	$(CC) -O2 -g -lomp -Xpreprocessor -fopenmp -c -o $@ $^ -std=c++11
 
 helper.o: helper.cpp
 	$(CC) -g -c -o $@ $^ -std=c++11
@@ -29,7 +29,7 @@ mmreader.o: mmreader.cpp
 	$(CC) -O2 -g -pthread -c -o $@ $^ -std=c++11
 
 sparse.o: sparse.cpp
-	$(CC) -O2 -c -g -fopenmp -c -o $@ $^ -std=c++11
+	$(CC) -O2 -c -g -lomp -Xpreprocessor -fopenmp -c -o $@ $^ -std=c++11
 
 clean:
 	rm $(TARGET)
