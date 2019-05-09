@@ -160,9 +160,9 @@ double L2Norm(vd* _A, vd* _x, vd* _b, int _size) {
   return error;
 }
 
+/* A, b, x_s, ACopy1, bCopy1, x_p, ACopy2, bCopy2 */
 vd mtrx[8];
 int main(int argc, char** argv) {
-  /* A, b, x_s, ACopy1, bCopy1, x_p, ACopy2, bCopy2 */
   /* initialization */
   random_init();
 
